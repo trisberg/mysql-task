@@ -24,7 +24,7 @@ kubectl port-forward svc/messages-mysql 3306
 mysql -h 127.0.0.1 -P 3306 -u root -p -D testdb
 ```
 
-### Create database
+### Create table
 
 ```[shell]
 CREATE TABLE data (
